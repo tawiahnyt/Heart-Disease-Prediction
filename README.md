@@ -76,16 +76,4 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 ---
 
-Feel free to contribute to this project by opening issues or submitting pull requests. For any questions, please contact the author.
-```
-
-### Key Sections in the README:
-1. **Introduction**: Overview of the project.
-2. **Project Structure**: List of the directories and files in the project.
-3. **Installation**: Instructions for cloning the repository and setting up the project.
-4. **Usage**: Explains how to use both the Streamlit application and the Jupyter Notebook.
-5. **Model Training and Evaluation**: Describes the machine learning model training and evaluation process.
-6. **Prediction**: Explains how predictions are made using the trained model.
-7. **License**: Information about the project's license.
-
-This README provides a concise overview of the project, making it easy for others to understand, set up, and use. You can customize the content further as needed!
+Feel free to contribute to this project by opening issues or submitting pull requests. For any questions, please contact the me.
