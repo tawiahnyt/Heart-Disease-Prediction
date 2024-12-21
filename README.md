@@ -40,7 +40,7 @@ pip install -r requirements.txt
 ### Run the Streamlit application:
 
 ```bash
-streamlit run "heart_disease_prediction.py"
+streamlit run heart_disease_prediction.py
 ```
 
 ## Usage
