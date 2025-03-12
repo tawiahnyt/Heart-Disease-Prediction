@@ -54,7 +54,7 @@ streamlit run heart_disease_prediction.py
 ### Jupyter Notebook
 
 1. Open `heart_main.ipynb` in Jupyter Notebook.
-2. Run the cells to load the dataset, train the model, and evaluate its performance.
+2. Run the cells to load the dataset, train the model, and evaluate it's performance.
 
 ## Model Training and Evaluation
 
