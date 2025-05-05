@@ -8,6 +8,7 @@ Created on Fri Dec 20 14:43:12 2024
 import numpy as np
 import pickle
 import streamlit as st
+from sklearn.preprocessing import StandardScaler
 
 # Loading the saved model
 loaded_model = pickle.load(open('models/heart_disease_model.sav', 'rb'))
@@ -17,7 +18,9 @@ def heart_prediction(input_data):
     input_data_as_numpy_array = np.asarray(input_data)
     reshaped_input_data = input_data_as_numpy_array.reshape(1, -1)
 
-    prediction = loaded_model.predict(reshaped_input_data)
+    input_data_scaled = scalar.transform(reshaped_input_data)
+
+    prediction = loaded_model.predict(input_data_scaled)
 
     print(prediction)
 
